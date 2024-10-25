@@ -31,4 +31,12 @@ public class HelloWorldTest {
         Assert.assertEquals(expected,actual);
     }
 
+    //Newly added testcase after project creation
+     @Test
+    public void helloTest4(){
+        String expected = "Hello, world!";
+        String actual = hw.sayHello4().trim();
+        Assert.assertEquals(expected,actual);
+    }
+
 }
