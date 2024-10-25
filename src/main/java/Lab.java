@@ -20,4 +20,7 @@ public class Lab {
     public String sayHello2(){
         return "change me";
     }
+     public String sayHello3(){
+        return "change me";
+    }
 }
